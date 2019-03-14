@@ -1,6 +1,6 @@
 # Visualize-you-logs-in-ELK-stack
 
-Configure logstash
+Configure logstash, Use: 01-input_syslog.conf
 
 Restart logstash
 
@@ -13,3 +13,11 @@ Configure rsyslog.conf on the remote host
 Restart rsyslog on the remote host
 
 systemctl restart rsyslog
+
+Create index in Kibana
+
+Create search patterens in Kibana
+
+Create visualization in Kibana
+
+Create dashboards in Kibana
