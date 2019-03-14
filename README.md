@@ -1,11 +1,15 @@
 # Visualize-you-logs-in-ELK-stack
 
-Send logs from your devices to ELK(Logstash)
+Configure logstash
 
-Create index in Kibana
+Restart logstash
 
-Filter logs in Kibana
+systemctl restart logstash
 
-Visualize logs in Kibana
+Configure rsyslog.conf on the remote host
 
-Create dashboards in Kibana
+*.* @<ELK_SERVER_IP>
+
+Restart rsyslog on the remote host
+
+systemctl restart rsyslog
