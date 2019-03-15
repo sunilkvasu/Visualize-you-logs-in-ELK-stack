@@ -1,5 +1,4 @@
-# INSTALL AND CONFIGURE ELK STACK ON CENTOS-7
-
+# Install and Configure ELK in 3 Steps
 STEP-1: Download the github repository
 	git clone https://github.com/sunilkvasu/install_elk.git
 
